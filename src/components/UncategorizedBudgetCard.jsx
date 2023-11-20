@@ -11,6 +11,6 @@ export default function UncategorizedBudgetCard(props) {
     if(amount === 0) return null
 
   return (
-        <BudgetCard name='Uncategorized' amount={amount}  {...props}/>
+        <BudgetCard name='Uncategorized' amount={amount} gray  {...props}/>
   )
 }
